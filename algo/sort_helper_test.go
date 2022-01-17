@@ -34,3 +34,7 @@ func TestSortHelper_TopQuickSort(t *testing.T) {
 	t.Log(desc)
 	t.Log(asc)
 }
+
+func TestBuildTopKFrequentHeap(t *testing.T) {
+	BuildTopKFrequentHeap(2)
+}

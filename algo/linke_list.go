@@ -1,6 +1,10 @@
 package algo
 
-import "fmt"
+import (
+	"fmt"
+	"math/rand"
+	"time"
+)
 
 type ListNode struct {
 	Val  int
@@ -349,4 +353,23 @@ func RotateRight(head *ListNode, k int) *ListNode {
 		firstTransCurrent = tranFirstNext
 	}
 	return transFirstPre
+}
+
+// 蓄水池算法
+// 随着遍历节点, sampleIndex 值越大，范围越大，趋向0值概率也随着变化
+func ReservoirSampling(head *ListNode) int {
+	rand.Seed(time.Now().Unix())
+	res := 0
+	sampleIndex := 1
+	node := head
+	for node != nil {
+		random := rand.Intn(sampleIndex)
+		// 随机值
+		if random == 0 {
+			res = node.Val
+		}
+		node = node.Next
+		sampleIndex++
+	}
+	return res
 }

@@ -1,6 +1,9 @@
 package algo
 
-import "testing"
+import (
+	"testing"
+	"time"
+)
 
 func TestAddTwoNumbers(t *testing.T) {
 	l1 := InitListNode([]int{9, 9, 9, 9, 9, 9, 9})
@@ -38,4 +41,13 @@ func TestRotateRight(t *testing.T) {
 	node := InitListNode([]int{1, 2, 3, 4, 5})
 	r := RotateRight(node, 2)
 	ShowListNode(r)
+}
+
+func TestReservoirSampling(t *testing.T) {
+	node := InitListNode([]int{1, 2, 3, 4, 5})
+	t.Log(ReservoirSampling(node))
+	time.Sleep(500 * time.Millisecond)
+	t.Log(ReservoirSampling(node))
+	time.Sleep(1 * time.Second)
+	t.Log(ReservoirSampling(node))
 }
