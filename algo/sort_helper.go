@@ -245,3 +245,55 @@ func kSmallestPairs(nums1, nums2 []int, k int) [][]int {
 	}
 	return res
 }
+
+type HeapMatrix struct {
+	data   [][2]int
+	matrix [][]int
+}
+
+func (ho HeapMatrix) Len() int {
+	return len(ho.data)
+}
+
+func (ho HeapMatrix) Less(i, j int) bool {
+	// 建立最小堆
+	x, y := ho.data[i], ho.data[j]
+	return ho.matrix[x[0]][x[1]] < ho.matrix[y[0]][y[1]]
+}
+
+func (ho HeapMatrix) Swap(i, j int) {
+	ho.data[i], ho.data[j] = ho.data[j], ho.data[i]
+}
+
+func (ho *HeapMatrix) Push(x interface{}) {
+	ho.data = append(ho.data, x.([2]int))
+}
+
+func (ho *HeapMatrix) Pop() interface{} {
+	last := ho.data[ho.Len()-1]
+	ho.data = ho.data[:ho.Len()-1]
+	return last
+}
+
+func KthSmallest(matrix [][]int, k int) int {
+	hm := &HeapMatrix{data: make([][2]int, 0, len(matrix)), matrix: matrix}
+	heap.Init(hm)
+	for i := 0; i < len(matrix); i++ {
+		heap.Push(hm, [2]int{i, 0})
+	}
+	res := 0
+	j := 0
+	for hm.Len() > 0 && j != k {
+		obj := heap.Pop(hm)
+		data := obj.([2]int)
+		fmt.Println(data[0], data[1])
+		j++
+		if data[1]+1 < len(matrix) {
+			heap.Push(hm, [2]int{data[0], data[1] + 1})
+		}
+		if j == k {
+			res = hm.matrix[data[0]][data[1]]
+		}
+	}
+	return res
+}
