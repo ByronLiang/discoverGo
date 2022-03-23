@@ -1,0 +1,994 @@
+[
+    {
+        "countryId": 10077,
+        "countryCode": "AND"
+    },
+    {
+        "countryId": 10085,
+        "countryCode": "ARE"
+    },
+    {
+        "countryId": 10092,
+        "countryCode": "AFG"
+    },
+    {
+        "countryId": 10123,
+        "countryCode": "ATG"
+    },
+    {
+        "countryId": 14091,
+        "countryCode": "AIA"
+    },
+    {
+        "countryId": 10131,
+        "countryCode": "ALB"
+    },
+    {
+        "countryId": 10168,
+        "countryCode": "ARM"
+    },
+    {
+        "countryId": 10180,
+        "countryCode": "AGO"
+    },
+    {
+        "countryId": 14093,
+        "countryCode": "ATA"
+    },
+    {
+        "countryId": 10198,
+        "countryCode": "ARG"
+    },
+    {
+        "countryId": 14094,
+        "countryCode": "ASM"
+    },
+    {
+        "countryId": 10223,
+        "countryCode": "AUT"
+    },
+    {
+        "countryId": 10233,
+        "countryCode": "AUS"
+    },
+    {
+        "countryId": 14095,
+        "countryCode": "ABW"
+    },
+    {
+        "countryId": 10242,
+        "countryCode": "AZE"
+    },
+    {
+        "countryId": 14096,
+        "countryCode": "BIH"
+    },
+    {
+        "countryId": 10313,
+        "countryCode": "BRB"
+    },
+    {
+        "countryId": 10325,
+        "countryCode": "BGD"
+    },
+    {
+        "countryId": 10390,
+        "countryCode": "BEL"
+    },
+    {
+        "countryId": 10403,
+        "countryCode": "BFA"
+    },
+    {
+        "countryId": 10434,
+        "countryCode": "BGR"
+    },
+    {
+        "countryId": 10464,
+        "countryCode": "BHR"
+    },
+    {
+        "countryId": 10477,
+        "countryCode": "BDI"
+    },
+    {
+        "countryId": 10494,
+        "countryCode": "BEN"
+    },
+    {
+        "countryId": 10501,
+        "countryCode": "BMU"
+    },
+    {
+        "countryId": 10512,
+        "countryCode": "BRN"
+    },
+    {
+        "countryId": 10517,
+        "countryCode": "BOL"
+    },
+    {
+        "countryId": 10527,
+        "countryCode": "BRA"
+    },
+    {
+        "countryId": 10555,
+        "countryCode": "BHS"
+    },
+    {
+        "countryId": 10577,
+        "countryCode": "BTN"
+    },
+    {
+        "countryId": 14097,
+        "countryCode": "BVT"
+    },
+    {
+        "countryId": 10596,
+        "countryCode": "BWA"
+    },
+    {
+        "countryId": 10607,
+        "countryCode": "BLR"
+    },
+    {
+        "countryId": 10615,
+        "countryCode": "BLZ"
+    },
+    {
+        "countryId": 10000,
+        "countryCode": "CAN"
+    },
+    {
+        "countryId": 14098,
+        "countryCode": "CCK"
+    },
+    {
+        "countryId": 10622,
+        "countryCode": "CAF"
+    },
+    {
+        "countryId": 10640,
+        "countryCode": "COG"
+    },
+    {
+        "countryId": 10651,
+        "countryCode": "CHE"
+    },
+    {
+        "countryId": 14099,
+        "countryCode": "CIV"
+    },
+    {
+        "countryId": 14100,
+        "countryCode": "COK"
+    },
+    {
+        "countryId": 10736,
+        "countryCode": "CHL"
+    },
+    {
+        "countryId": 10750,
+        "countryCode": "CMR"
+    },
+    {
+        "countryId": 10761,
+        "countryCode": "CHN"
+    },
+    {
+        "countryId": 10791,
+        "countryCode": "COL"
+    },
+    {
+        "countryId": 10825,
+        "countryCode": "CRI"
+    },
+    {
+        "countryId": 10833,
+        "countryCode": "CUB"
+    },
+    {
+        "countryId": 10849,
+        "countryCode": "CPV"
+    },
+    {
+        "countryId": 14101,
+        "countryCode": "CXR"
+    },
+    {
+        "countryId": 10862,
+        "countryCode": "CYP"
+    },
+    {
+        "countryId": 10869,
+        "countryCode": "CZE"
+    },
+    {
+        "countryId": 10884,
+        "countryCode": "DEU"
+    },
+    {
+        "countryId": 10901,
+        "countryCode": "DJI"
+    },
+    {
+        "countryId": 10906,
+        "countryCode": "DNK"
+    },
+    {
+        "countryId": 10922,
+        "countryCode": "DMA"
+    },
+    {
+        "countryId": 10933,
+        "countryCode": "DOM"
+    },
+    {
+        "countryId": 10964,
+        "countryCode": "DZA"
+    },
+    {
+        "countryId": 11013,
+        "countryCode": "ECU"
+    },
+    {
+        "countryId": 11036,
+        "countryCode": "EST"
+    },
+    {
+        "countryId": 11058,
+        "countryCode": "EGY"
+    },
+    {
+        "countryId": 14102,
+        "countryCode": "ESH"
+    },
+    {
+        "countryId": 14103,
+        "countryCode": "ERI"
+    },
+    {
+        "countryId": 11085,
+        "countryCode": "ESP"
+    },
+    {
+        "countryId": 11103,
+        "countryCode": "ETH"
+    },
+    {
+        "countryId": 11121,
+        "countryCode": "FIN"
+    },
+    {
+        "countryId": 11128,
+        "countryCode": "FJI"
+    },
+    {
+        "countryId": 14104,
+        "countryCode": "FLK"
+    },
+    {
+        "countryId": 11134,
+        "countryCode": "FSM"
+    },
+    {
+        "countryId": 14105,
+        "countryCode": "FRO"
+    },
+    {
+        "countryId": 11139,
+        "countryCode": "FRA"
+    },
+    {
+        "countryId": 14106,
+        "countryCode": "GAB"
+    },
+    {
+        "countryId": 14107,
+        "countryCode": "GBR"
+    },
+    {
+        "countryId": 11425,
+        "countryCode": "GRD"
+    },
+    {
+        "countryId": 11432,
+        "countryCode": "GEO"
+    },
+    {
+        "countryId": 14108,
+        "countryCode": "GUF"
+    },
+    {
+        "countryId": 11497,
+        "countryCode": "GHA"
+    },
+    {
+        "countryId": 14109,
+        "countryCode": "GIB"
+    },
+    {
+        "countryId": 11508,
+        "countryCode": "GRL"
+    },
+    {
+        "countryId": 11512,
+        "countryCode": "GMB"
+    },
+    {
+        "countryId": 14110,
+        "countryCode": "GIN"
+    },
+    {
+        "countryId": 14111,
+        "countryCode": "GLP"
+    },
+    {
+        "countryId": 11554,
+        "countryCode": "GNQ"
+    },
+    {
+        "countryId": 11562,
+        "countryCode": "GRC"
+    },
+    {
+        "countryId": 14112,
+        "countryCode": "SGS"
+    },
+    {
+        "countryId": 11614,
+        "countryCode": "GTM"
+    },
+    {
+        "countryId": 14113,
+        "countryCode": "GUM"
+    },
+    {
+        "countryId": 11637,
+        "countryCode": "GNB"
+    },
+    {
+        "countryId": 11647,
+        "countryCode": "GUY"
+    },
+    {
+        "countryId": 14114,
+        "countryCode": "HKG"
+    },
+    {
+        "countryId": 14115,
+        "countryCode": "HMD"
+    },
+    {
+        "countryId": 11658,
+        "countryCode": "HND"
+    },
+    {
+        "countryId": 11677,
+        "countryCode": "HRV"
+    },
+    {
+        "countryId": 11699,
+        "countryCode": "HTI"
+    },
+    {
+        "countryId": 11709,
+        "countryCode": "HUN"
+    },
+    {
+        "countryId": 11749,
+        "countryCode": "IDN"
+    },
+    {
+        "countryId": 11781,
+        "countryCode": "IRL"
+    },
+    {
+        "countryId": 11808,
+        "countryCode": "ISR"
+    },
+    {
+        "countryId": 11815,
+        "countryCode": "IND"
+    },
+    {
+        "countryId": 14116,
+        "countryCode": "IOT"
+    },
+    {
+        "countryId": 11851,
+        "countryCode": "IRQ"
+    },
+    {
+        "countryId": 11870,
+        "countryCode": "IRN"
+    },
+    {
+        "countryId": 11898,
+        "countryCode": "ISL"
+    },
+    {
+        "countryId": 11936,
+        "countryCode": "ITA"
+    },
+    {
+        "countryId": 11957,
+        "countryCode": "JAM"
+    },
+    {
+        "countryId": 11972,
+        "countryCode": "JOR"
+    },
+    {
+        "countryId": 11980,
+        "countryCode": "JPN"
+    },
+    {
+        "countryId": 12028,
+        "countryCode": "KEN"
+    },
+    {
+        "countryId": 12037,
+        "countryCode": "KGZ"
+    },
+    {
+        "countryId": 12039,
+        "countryCode": "KHM"
+    },
+    {
+        "countryId": 12060,
+        "countryCode": "KIR"
+    },
+    {
+        "countryId": 12064,
+        "countryCode": "COM"
+    },
+    {
+        "countryId": 14117,
+        "countryCode": "KNA"
+    },
+    {
+        "countryId": 14118,
+        "countryCode": "PRK"
+    },
+    {
+        "countryId": 14119,
+        "countryCode": "KOR"
+    },
+    {
+        "countryId": 12114,
+        "countryCode": "KWT"
+    },
+    {
+        "countryId": 12118,
+        "countryCode": "CYM"
+    },
+    {
+        "countryId": 12127,
+        "countryCode": "KAZ"
+    },
+    {
+        "countryId": 14120,
+        "countryCode": "LAO"
+    },
+    {
+        "countryId": 12159,
+        "countryCode": "LBN"
+    },
+    {
+        "countryId": 14121,
+        "countryCode": "LCA"
+    },
+    {
+        "countryId": 12178,
+        "countryCode": "LIE"
+    },
+    {
+        "countryId": 12190,
+        "countryCode": "LKA"
+    },
+    {
+        "countryId": 12215,
+        "countryCode": "LBR"
+    },
+    {
+        "countryId": 12226,
+        "countryCode": "LSO"
+    },
+    {
+        "countryId": 12237,
+        "countryCode": "LTU"
+    },
+    {
+        "countryId": 12248,
+        "countryCode": "LUX"
+    },
+    {
+        "countryId": 12252,
+        "countryCode": "LVA"
+    },
+    {
+        "countryId": 14122,
+        "countryCode": "LBY"
+    },
+    {
+        "countryId": 12310,
+        "countryCode": "MAR"
+    },
+    {
+        "countryId": 12350,
+        "countryCode": "MCO"
+    },
+    {
+        "countryId": 12354,
+        "countryCode": "MDA"
+    },
+    {
+        "countryId": 12366,
+        "countryCode": "MDG"
+    },
+    {
+        "countryId": 14123,
+        "countryCode": "MHL"
+    },
+    {
+        "countryId": 14124,
+        "countryCode": "MKD"
+    },
+    {
+        "countryId": 12497,
+        "countryCode": "MLI"
+    },
+    {
+        "countryId": 12506,
+        "countryCode": "MMR"
+    },
+    {
+        "countryId": 12521,
+        "countryCode": "MNG"
+    },
+    {
+        "countryId": 14125,
+        "countryCode": "MAC"
+    },
+    {
+        "countryId": 14126,
+        "countryCode": "MNP"
+    },
+    {
+        "countryId": 14127,
+        "countryCode": "MTQ"
+    },
+    {
+        "countryId": 12549,
+        "countryCode": "MRT"
+    },
+    {
+        "countryId": 12562,
+        "countryCode": "MSR"
+    },
+    {
+        "countryId": 14128,
+        "countryCode": "MLT"
+    },
+    {
+        "countryId": 12566,
+        "countryCode": "MUS"
+    },
+    {
+        "countryId": 12579,
+        "countryCode": "MDV"
+    },
+    {
+        "countryId": 12599,
+        "countryCode": "MWI"
+    },
+    {
+        "countryId": 12624,
+        "countryCode": "MEX"
+    },
+    {
+        "countryId": 12657,
+        "countryCode": "MYS"
+    },
+    {
+        "countryId": 12673,
+        "countryCode": "MOZ"
+    },
+    {
+        "countryId": 12684,
+        "countryCode": "NAM"
+    },
+    {
+        "countryId": 14129,
+        "countryCode": "NCL"
+    },
+    {
+        "countryId": 12711,
+        "countryCode": "NER"
+    },
+    {
+        "countryId": 14130,
+        "countryCode": "NFK"
+    },
+    {
+        "countryId": 12719,
+        "countryCode": "NGA"
+    },
+    {
+        "countryId": 12757,
+        "countryCode": "NIC"
+    },
+    {
+        "countryId": 12774,
+        "countryCode": "NLD"
+    },
+    {
+        "countryId": 12790,
+        "countryCode": "NOR"
+    },
+    {
+        "countryId": 12810,
+        "countryCode": "NPL"
+    },
+    {
+        "countryId": 12825,
+        "countryCode": "NRU"
+    },
+    {
+        "countryId": 14131,
+        "countryCode": "NIU"
+    },
+    {
+        "countryId": 12840,
+        "countryCode": "NZL"
+    },
+    {
+        "countryId": 12946,
+        "countryCode": "OMN"
+    },
+    {
+        "countryId": 14132,
+        "countryCode": "PAN"
+    },
+    {
+        "countryId": 12966,
+        "countryCode": "PER"
+    },
+    {
+        "countryId": 14133,
+        "countryCode": "PYF"
+    },
+    {
+        "countryId": 12992,
+        "countryCode": "PNG"
+    },
+    {
+        "countryId": 13013,
+        "countryCode": "PHL"
+    },
+    {
+        "countryId": 13147,
+        "countryCode": "PAK"
+    },
+    {
+        "countryId": 13156,
+        "countryCode": "POL"
+    },
+    {
+        "countryId": 14134,
+        "countryCode": "SPM"
+    },
+    {
+        "countryId": 14135,
+        "countryCode": "PRI"
+    },
+    {
+        "countryId": 14136,
+        "countryCode": "PSE"
+    },
+    {
+        "countryId": 13206,
+        "countryCode": "PRT"
+    },
+    {
+        "countryId": 14137,
+        "countryCode": "PLW"
+    },
+    {
+        "countryId": 13227,
+        "countryCode": "PRY"
+    },
+    {
+        "countryId": 13247,
+        "countryCode": "QAT"
+    },
+    {
+        "countryId": 14138,
+        "countryCode": "REU"
+    },
+    {
+        "countryId": 13257,
+        "countryCode": "ROU"
+    },
+    {
+        "countryId": 13299,
+        "countryCode": "RUS"
+    },
+    {
+        "countryId": 13389,
+        "countryCode": "RWA"
+    },
+    {
+        "countryId": 13400,
+        "countryCode": "SAU"
+    },
+    {
+        "countryId": 13414,
+        "countryCode": "SLB"
+    },
+    {
+        "countryId": 13422,
+        "countryCode": "SYC"
+    },
+    {
+        "countryId": 13445,
+        "countryCode": "SDN"
+    },
+    {
+        "countryId": 13454,
+        "countryCode": "SWE"
+    },
+    {
+        "countryId": 14139,
+        "countryCode": "SGP"
+    },
+    {
+        "countryId": 14140,
+        "countryCode": "SHN"
+    },
+    {
+        "countryId": 14141,
+        "countryCode": "SVN"
+    },
+    {
+        "countryId": 14142,
+        "countryCode": "SJM"
+    },
+    {
+        "countryId": 13485,
+        "countryCode": "SVK"
+    },
+    {
+        "countryId": 13494,
+        "countryCode": "SLE"
+    },
+    {
+        "countryId": 13499,
+        "countryCode": "SMR"
+    },
+    {
+        "countryId": 13509,
+        "countryCode": "SEN"
+    },
+    {
+        "countryId": 13520,
+        "countryCode": "SOM"
+    },
+    {
+        "countryId": 13537,
+        "countryCode": "SUR"
+    },
+    {
+        "countryId": 14143,
+        "countryCode": "STP"
+    },
+    {
+        "countryId": 13551,
+        "countryCode": "SLV"
+    },
+    {
+        "countryId": 13566,
+        "countryCode": "SYR"
+    },
+    {
+        "countryId": 13581,
+        "countryCode": "SWZ"
+    },
+    {
+        "countryId": 14144,
+        "countryCode": "TCA"
+    },
+    {
+        "countryId": 13587,
+        "countryCode": "TCD"
+    },
+    {
+        "countryId": 14145,
+        "countryCode": "ATF"
+    },
+    {
+        "countryId": 13602,
+        "countryCode": "TGO"
+    },
+    {
+        "countryId": 13624,
+        "countryCode": "THA"
+    },
+    {
+        "countryId": 14146,
+        "countryCode": "TJK"
+    },
+    {
+        "countryId": 14147,
+        "countryCode": "TKL"
+    },
+    {
+        "countryId": 13697,
+        "countryCode": "TKM"
+    },
+    {
+        "countryId": 13703,
+        "countryCode": "TUN"
+    },
+    {
+        "countryId": 13727,
+        "countryCode": "TON"
+    },
+    {
+        "countryId": 13731,
+        "countryCode": "TUR"
+    },
+    {
+        "countryId": 14148,
+        "countryCode": "TTO"
+    },
+    {
+        "countryId": 14149,
+        "countryCode": "TUV"
+    },
+    {
+        "countryId": 13825,
+        "countryCode": "TWN"
+    },
+    {
+        "countryId": 13830,
+        "countryCode": "TZA"
+    },
+    {
+        "countryId": 14150,
+        "countryCode": "UKR"
+    },
+    {
+        "countryId": 13884,
+        "countryCode": "UGA"
+    },
+    {
+        "countryId": 14151,
+        "countryCode": "UMI"
+    },
+    {
+        "countryId": 10014,
+        "countryCode": "USA"
+    },
+    {
+        "countryId": 13901,
+        "countryCode": "URY"
+    },
+    {
+        "countryId": 13921,
+        "countryCode": "UZB"
+    },
+    {
+        "countryId": 14152,
+        "countryCode": "VAT"
+    },
+    {
+        "countryId": 14153,
+        "countryCode": "VCT"
+    },
+    {
+        "countryId": 13942,
+        "countryCode": "VEN"
+    },
+    {
+        "countryId": 14154,
+        "countryCode": "VGB"
+    },
+    {
+        "countryId": 14155,
+        "countryCode": "VIR"
+    },
+    {
+        "countryId": 13968,
+        "countryCode": "VNM"
+    },
+    {
+        "countryId": 14022,
+        "countryCode": "VUT"
+    },
+    {
+        "countryId": 14156,
+        "countryCode": "WLF"
+    },
+    {
+        "countryId": 14034,
+        "countryCode": "WSM"
+    },
+    {
+        "countryId": 14045,
+        "countryCode": "YEM"
+    },
+    {
+        "countryId": 14157,
+        "countryCode": "MYT"
+    },
+    {
+        "countryId": 14158,
+        "countryCode": "SRB"
+    },
+    {
+        "countryId": 14062,
+        "countryCode": "ZAF"
+    },
+    {
+        "countryId": 14067,
+        "countryCode": "ZMB"
+    },
+    {
+        "countryId": 14159,
+        "countryCode": "MNE"
+    },
+    {
+        "countryId": 14087,
+        "countryCode": "ZWE"
+    },
+    {
+        "countryId": 14168,
+        "countryCode": "GGY"
+    },
+    {
+        "countryId": 14169,
+        "countryCode": "ALA"
+    },
+    {
+        "countryId": 14170,
+        "countryCode": "JEY"
+    },
+    {
+        "countryId": 14171,
+        "countryCode": "CUW"
+    },
+    {
+        "countryId": 14172,
+        "countryCode": "SXM"
+    },
+    {
+        "countryId": 14173,
+        "countryCode": "PCN"
+    },
+    {
+        "countryId": 14174,
+        "countryCode": "BLM"
+    },
+    {
+        "countryId": 14175,
+        "countryCode": "MAF"
+    },
+    {
+        "countryId": 14176,
+        "countryCode": "BES"
+    },
+    {
+        "countryId": 14177,
+        "countryCode": "IMN"
+    },
+    {
+        "countryId": 14178,
+        "countryCode": "SSD"
+    },
+    {
+        "countryId": 14179,
+        "countryCode": "TLS"
+    }
+]
