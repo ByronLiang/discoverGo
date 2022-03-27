@@ -18,3 +18,23 @@ func TestInitLocationTrie(t *testing.T) {
 		t.Log(code)
 	}
 }
+
+func BenchmarkCountryCodeTrie_ParseCountryCodeToId(b *testing.B) {
+	_, cct, err := InitLocationTrie("./data/location.json")
+	if err != nil {
+		return
+	}
+	for i := 0; i < b.N; i++ {
+		cct.ParseCountryCodeToId("JPN")
+	}
+}
+
+func BenchmarkCountryIdTrie_ParseCountryIdToCode(b *testing.B) {
+	cid, _, err := InitLocationTrie("./data/location.json")
+	if err != nil {
+		return
+	}
+	for i := 0; i < b.N; i++ {
+		cid.ParseCountryIdToCode(11980)
+	}
+}
