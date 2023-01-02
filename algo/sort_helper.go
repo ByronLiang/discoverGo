@@ -50,6 +50,17 @@ func (sh SortHelper) MergeSort(data []int, start, end int) {
 	}
 }
 
+// 逆序列数量计算和返回逆序列组合列表
+func (sh SortHelper) MergeReOrder(data []int, start, end int, count *int, reorderList *[][]int) {
+	if end-start > 1 {
+		mid := start + (end-start+1)>>1
+		sh.MergeReOrder(data, start, mid, count, reorderList)
+		sh.MergeReOrder(data, mid, end, count, reorderList)
+		fmt.Println("before-reorder:", start, mid, end, *count)
+		reorder(data, start, mid, end, count, reorderList)
+	}
+}
+
 func (sh SortHelper) QuickSort(data []int) {
 	quickSort(data, 0, len(data)-1)
 }
@@ -104,6 +115,43 @@ func quickSortPartition(data []int, l, r int) int {
 		data[l], data[r] = data[r], data[l]
 	}
 	return l
+}
+
+func reorder(data []int, start, mid, end int, count *int, reorderList *[][]int)  {
+	lSize := mid - start
+	rSize := end - mid
+	s := end - start
+	temp := make([]int, 0, s)
+	l, r := 0, 0
+	for l < lSize && r < rSize {
+		lValue := data[start+l]
+		rValue := data[mid+r]
+		if lValue <= rValue {
+			temp = append(temp, lValue)
+			l++
+		} else {
+			// 中间下标和起始位置加上偏移位置的长度之差就是逆序列的数量
+			// 由于每个分组里都是有序的, 因此当前下标(l)后的元素成员到 mid 下标位置的数量就是产生逆序列排列数量
+			fmt.Println("val:", lValue, rValue, "addCount:", mid - (start + l))
+			for j := start + l; j < mid; j++ {
+				*reorderList = append(*reorderList, []int{data[j], rValue})
+			}
+			*count += mid - (start + l)
+			temp = append(temp, rValue)
+			r++
+		}
+	}
+	if l < lSize {
+		temp = append(temp, data[start+l:mid]...)
+	}
+	if r < rSize {
+		temp = append(temp, data[mid+r:end]...)
+	}
+	//for i := 0; i < s; i++ {
+	//	data[start+i] = temp[i]
+	//}
+	copy(data[start:end], temp[0:])
+	fmt.Println("temp: ", temp, data, *count)
 }
 
 func merge(data []int, start, mid, end int) {
